@@ -1,0 +1,42 @@
+//program to demostrate switch case ( BASIC ) 
+package p11;
+import java.util.Scanner;
+public class main {
+	public static void main (String [] args ) {
+		int n;
+		Scanner sc=new Scanner (System.in );
+		System.out.println("Enter number of day ");
+		n=sc.nextInt();
+		switch (n) {
+		case 1:
+			System.out.println(" TODAY IS MONDAY");
+			break;
+		case 2:
+			System.out.println(" TODAY IS TUESDAY");
+			break;
+		case 3:
+			System.out.println(" TODAY IS WEDNESDAY");
+			break;
+		case 4:
+			System.out.println(" TODAY IS THURSDAY");
+			break;
+		case 5:
+			System.out.println(" TODAY IS FRIDAY");
+			break;
+		case 6:
+			System.out.println(" TODAY IS SATURDAY");
+			break;
+		case 7:
+			System.out.println(" TODAY IS SUNDAY");
+			break;
+			default:
+			System.out.println("today is holiday ");
+		}
+	}
+}
+
+
+
+
+	
+
